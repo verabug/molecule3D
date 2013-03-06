@@ -309,7 +309,6 @@ function drawMolecule() {
 
 			// Fill with gradient
 			ctx.fillStyle=grd;
-			//ctx.fillRect(0, 0, 500, 350);
 			ctx.arc(atom.x, atom.y, atom.radius, 0, Math.PI*2, true);
 			ctx.fill();
 			ctx.closePath();
