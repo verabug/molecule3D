@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <!DOCTYPE list SYSTEM "cml.dtd" >
 <!--CML conversion of file caffeine.pdb
-Produced by PDB2CML (c) Steve Zara 1999-->
+Produced by PDB2CML (c)  Steve Zara 1999-->
 <list title="molecules" convention="PDB">
     <list title="model">
         <list title="compounds">

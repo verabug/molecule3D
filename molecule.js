@@ -301,7 +301,6 @@ function drawMolecule() {
 	for (var i = 0; i < zStack.length; i++) {
 		if (zStack[i][0] == "atom") {
 			var atom = zStack[i][1];
-			//trace(zStack[i][1].x + ": " + atom.scale + ": " + atom.size);
 			var grdOffset = 3;
       		var grd=ctx.createRadialGradient(atom.x - grdOffset,atom.y - grdOffset,grdOffset,atom.x,atom.y,25*atom.scale);
 			grd.addColorStop(0,  "white");
